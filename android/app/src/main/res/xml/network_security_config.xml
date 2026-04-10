@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Network Security Config
+    IPTV stream URLs served by iptv-org aggregators are frequently plain HTTP.
+    We allow cleartext for all domains so streams play without SSL errors.
+    The app itself only ever navigates to the globetv.app HTTPS site; the
+    cleartext permission is needed only for the media stream URLs the page
+    triggers via HLS/direct video src attributes.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

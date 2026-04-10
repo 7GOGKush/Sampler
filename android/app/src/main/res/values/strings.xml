@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Globe TV</string>
+    <string name="error_no_connection">No connection — check your network and try again.</string>
+    <string name="error_retry_hint">Press MENU or the red button on your remote to reload.</string>
+</resources>

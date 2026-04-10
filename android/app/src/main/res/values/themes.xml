@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Base theme: Leanback (TV) — no action bar, full-screen black canvas.
+        We extend Theme.Leanback so the app integrates properly with the
+        Android TV launcher and Onn's TV UI.
+    -->
+    <style name="Theme.GlobeTV" parent="@style/Theme.Leanback">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+</resources>

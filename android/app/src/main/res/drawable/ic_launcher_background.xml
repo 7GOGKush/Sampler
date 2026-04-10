@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Deep space blue background for the launcher icon -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="135"
+        android:endColor="#0d1b3e"
+        android:startColor="#0a4f7e"
+        android:type="linear" />
+</shape>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android TV banner — displayed in the Onn/Android TV launcher row.
+    Required dimensions: 320 x 180 dp (xhdpi: 640x360px).
+    This vector scales to any density automatically.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="0"
+                android:endColor="#0d1b3e"
+                android:startColor="#0a4f7e"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Decorative globe circle (right side) -->
+    <item
+        android:gravity="center_vertical|right"
+        android:right="20dp">
+        <shape android:shape="oval">
+            <size
+                android:width="140dp"
+                android:height="140dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#2200bcd4" />
+            <solid android:color="#1100bcd4" />
+        </shape>
+    </item>
+
+    <!-- Accent bar at left edge -->
+    <item
+        android:bottom="0dp"
+        android:right="296dp"
+        android:top="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#00bcd4" />
+        </shape>
+    </item>
+
+</layer-list>
